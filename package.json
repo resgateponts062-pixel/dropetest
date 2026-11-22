@@ -1,0 +1,16 @@
+{
+  "name": "apk-forge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Embute payload, troca icone e nome, assina e devolve o APK",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "jimp": "0.22.12"
+  }
+}
